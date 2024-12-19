@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_detail"
+    app:startDestination="@id/searchFragment">
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="kr.hs.dgsw.presentation.ui.fragment.detail.SearchFragment"
+        android:label="SearchFragment"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_summonerFragment"
+            app:destination="@id/summonerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/summonerFragment"
+        android:name="kr.hs.dgsw.presentation.ui.fragment.detail.SummonerFragment"
+        android:label="fragment_summoner"
+        tools:layout="@layout/fragment_summoner" />
+</navigation>

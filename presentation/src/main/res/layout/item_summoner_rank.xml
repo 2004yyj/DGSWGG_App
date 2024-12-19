@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="rank"
+            type="kr.hs.dgsw.domain.entity.summoner.Rank" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:paddingVertical="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="40dp"
+        android:background="@drawable/bg_rank_box">
+
+        <ImageView
+            android:id="@+id/iv_rank_summoner_rank"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            tools:src="@drawable/ic_silver"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_rank_type_summoner_rank"
+            style="@style/Theme.Text.Smallest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/bg_rank_type"
+            android:paddingVertical="1dp"
+            android:paddingHorizontal="2dp"
+            android:textColor="@color/main_dark"
+            android:textSize="10sp"
+            app:layout_constraintStart_toEndOf="@+id/iv_rank_summoner_rank"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="개인/2인 랭크" />
+
+        <TextView
+            android:id="@+id/tv_tier_summoner_rank"
+            style="@style/Theme.Text.Bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@{Integer.parseInt(rank.rank) == 0 ? rank.tier : @string/tier(rank.tier, rank.rank)}"
+            app:layout_constraintStart_toEndOf="@+id/iv_rank_summoner_rank"
+            app:layout_constraintTop_toBottomOf="@+id/tv_rank_type_summoner_rank"
+            tools:text="Silver 4" />
+
+        <TextView
+            android:id="@+id/tv_league_point_summoner_rank"
+            style="@style/Theme.Text.Smallest.Bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/disabled"
+            android:text="@{@string/league_point(rank.leaguePoints)}"
+            app:layout_constraintStart_toEndOf="@+id/iv_rank_summoner_rank"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tier_summoner_rank"
+            tools:text="14 LP" />
+
+        <TextView
+            android:id="@+id/tv_win_lose_summoner_rank"
+            style="@style/Theme.Text.Smallest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/disabled"
+            android:text="@{@string/win_lose(rank.wins, rank.losses, (int)((float)rank.wins / (float)(rank.wins + rank.losses) * 100))}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_rank_summoner_rank"
+            app:layout_constraintTop_toBottomOf="@+id/tv_league_point_summoner_rank"
+            tools:text="16승 4패 (80%)" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

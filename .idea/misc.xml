@@ -1,5 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.27708333333333335" />
+        <entry key="../../../Library/Android/sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.34270833333333334" />
+        <entry key="presentation/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1975" />
+        <entry key="presentation/src/main/res/drawable-v24/logo.xml" value="0.122" />
+        <entry key="presentation/src/main/res/drawable/background_splash.xml" value="0.125" />
+        <entry key="presentation/src/main/res/drawable/bg_bottom_navigation_view.xml" value="0.5" />
+        <entry key="presentation/src/main/res/drawable/bg_button.xml" value="0.1975" />
+        <entry key="presentation/src/main/res/drawable/bg_gradient.xml" value="0.1975" />
+        <entry key="presentation/src/main/res/drawable/bg_level.xml" value="0.1975" />
+        <entry key="presentation/src/main/res/drawable/bg_nothing_item.xml" value="0.1915" />
+        <entry key="presentation/src/main/res/drawable/bg_rank_box.xml" value="0.1975" />
+        <entry key="presentation/src/main/res/drawable/bg_rank_type.xml" value="0.1975" />
+        <entry key="presentation/src/main/res/drawable/bg_search_button.xml" value="0.25" />
+        <entry key="presentation/src/main/res/drawable/bg_search_button_night.xml" value="0.121" />
+        <entry key="presentation/src/main/res/drawable/bg_search_input.xml" value="0.1" />
+        <entry key="presentation/src/main/res/drawable/bg_search_input_light.xml" value="0.1" />
+        <entry key="presentation/src/main/res/drawable/bg_search_input_night.xml" value="0.1975" />
+        <entry key="presentation/src/main/res/drawable/bg_title_button.xml" value="0.1975" />
+        <entry key="presentation/src/main/res/drawable/disabled_spinner_dropdown_menu.xml" value="0.2135" />
+        <entry key="presentation/src/main/res/drawable/fg_gradient.xml" value="0.1975" />
+        <entry key="presentation/src/main/res/drawable/ic_add.xml" value="0.213" />
+        <entry key="presentation/src/main/res/drawable/ic_arrow_dark.xml" value="0.2655" />
+        <entry key="presentation/src/main/res/drawable/ic_arrow_light.xml" value="0.2655" />
+        <entry key="presentation/src/main/res/drawable/ic_close.xml" value="0.3375" />
+        <entry key="presentation/src/main/res/drawable/ic_home.xml" value="0.256" />
+        <entry key="presentation/src/main/res/drawable/ic_launcher_background.xml" value="0.122" />
+        <entry key="presentation/src/main/res/drawable/ic_rank.xml" value="0.256" />
+        <entry key="presentation/src/main/res/drawable/ic_search.xml" value="0.169" />
+        <entry key="presentation/src/main/res/drawable/ic_search_disabled.xml" value="0.169" />
+        <entry key="presentation/src/main/res/drawable/ic_search_enabled.xml" value="0.169" />
+        <entry key="presentation/src/main/res/drawable/ic_search_enabled_night.xml" value="0.169" />
+        <entry key="presentation/src/main/res/drawable/ic_search_night.xml" value="0.169" />
+        <entry key="presentation/src/main/res/drawable/ic_setup.xml" value="0.2655" />
+        <entry key="presentation/src/main/res/drawable/logo.xml" value="0.122" />
+        <entry key="presentation/src/main/res/layout/activity_detail.xml" value="0.33" />
+        <entry key="presentation/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="presentation/src/main/res/layout/activity_refresh_summoner.xml" value="0.33" />
+        <entry key="presentation/src/main/res/layout/activity_search.xml" value="0.3279445727482679" />
+        <entry key="presentation/src/main/res/layout/activity_splash.xml" value="0.3567708333333333" />
+        <entry key="presentation/src/main/res/layout/disabled_spinner_dropdown_item.xml" value="0.15" />
+        <entry key="presentation/src/main/res/layout/enabled_spinner_dropdown_item.xml" value="0.5" />
+        <entry key="presentation/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="presentation/src/main/res/layout/fragment_rank.xml" value="0.35625" />
+        <entry key="presentation/src/main/res/layout/fragment_search.xml" value="0.33" />
+        <entry key="presentation/src/main/res/layout/fragment_setup.xml" value="0.35572916666666665" />
+        <entry key="presentation/src/main/res/layout/fragment_summoner.xml" value="0.335" />
+        <entry key="presentation/src/main/res/layout/header_search.xml" value="0.33" />
+        <entry key="presentation/src/main/res/layout/home_fragment.xml" value="0.3567708333333333" />
+        <entry key="presentation/src/main/res/layout/item_rank.xml" value="0.35572916666666665" />
+        <entry key="presentation/src/main/res/layout/item_search.xml" value="0.33" />
+        <entry key="presentation/src/main/res/menu/menu_homr.xml" value="0.35625" />
+        <entry key="presentation/src/main/res/menu/menu_main.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

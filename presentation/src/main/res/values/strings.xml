@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">DGSW.gg_App</string>
+    <string name="search_hint">소환사 및 학생명 검색</string>
+    <string name="grade_class_number_name">[%d학년 %d반 %d번 %s]</string>
+    <string name="tier">%s %s</string>
+    <string name="league_point">%d LP</string>
+    <string name="win_lose">%d승 %d패 (%d%%)</string>
+    <string name="SOLO">개인/2인 랭크</string>
+    <string name="FLEX">자유 랭크</string>
+    <string name="profile_image_url">http://ddragon.leagueoflegends.com/cdn/12.6.1/img/profileicon/%d.png</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
